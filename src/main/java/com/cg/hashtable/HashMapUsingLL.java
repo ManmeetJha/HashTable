@@ -14,24 +14,22 @@ public class HashMapUsingLL<K, V> {
         if (searchedNode == null) {
             HashMapNode<K, V> newNode = new HashMapNode<>(key, value);
             this.myLinkedList.append(newNode);
-        }
-        else
+        } else
             searchedNode.setValue(value);
     }
 
-    public V get(K key){
+    public V get(K key) {
         HashMapNode<K, V> searchedNode = this.myLinkedList.search(key);
-        if(searchedNode == null)
+        if (searchedNode == null)
             return null;
         return searchedNode.value;
     }
 
-    public void display(){
-        HashMapNode current=this.myLinkedList.head;
-        while(current!=null)
-        {
+    public void display() {
+        HashMapNode current = this.myLinkedList.head;
+        while (current != null) {
             System.out.println(current.toString());
-            current=current.next;
+            current = current.next;
         }
 
     }

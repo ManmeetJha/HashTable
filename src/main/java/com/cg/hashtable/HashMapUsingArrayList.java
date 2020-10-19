@@ -77,6 +77,26 @@ public class HashMapUsingArrayList<K, V> {
                 current = current.next;
             }
         }
+
     }
+
+    //remove from Map
+    public void remove(K key){
+        int index = getBucketIndex(key);
+        HashMapNode head = myArrayList.get(index);
+        if(head.key.equals(key)){
+            myArrayList.set(index, head.next);
+        }else{
+            HashMapNode<K,V> current = head.next;
+            HashMapNode<K,V> previous = head;
+            while(current != null){
+                if(current.key.equals(key)){
+                    previous.next = current.next;
+                }
+                current=current.next;
+            }
+        }
+    }
+
 }
 

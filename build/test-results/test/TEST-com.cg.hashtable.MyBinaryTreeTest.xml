@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cg.hashtable.MyBinaryTreeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-20T14:39:29" hostname="LAPTOP-21LB24T9" time="0.003">
+  <properties/>
+  <testcase name="given13Numbers_whenAddedtoBST_shouldReturn13" classname="com.cg.hashtable.MyBinaryTreeTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

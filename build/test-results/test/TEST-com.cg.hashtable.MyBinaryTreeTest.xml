@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cg.hashtable.MyBinaryTreeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-20T14:39:29" hostname="LAPTOP-21LB24T9" time="0.003">
+<testsuite name="com.cg.hashtable.MyBinaryTreeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-20T14:53:51" hostname="LAPTOP-21LB24T9" time="0.004">
   <properties/>
-  <testcase name="given13Numbers_whenAddedtoBST_shouldReturn13" classname="com.cg.hashtable.MyBinaryTreeTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenNumber_whenSearchInTree_shouldReturnTrue" classname="com.cg.hashtable.MyBinaryTreeTest" time="0.004"/>
+  <system-out><![CDATA[com.cg.hashtable.MyBinaryNode@1be15ce63
+com.cg.hashtable.MyBinaryNode@423a86f263
+com.cg.hashtable.MyBinaryNode@399eead463
+com.cg.hashtable.MyBinaryNode@b75f23f63
+com.cg.hashtable.MyBinaryNode@62a9c77c63
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
